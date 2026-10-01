@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>河内寺廃寺跡 解説</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header><h1 id="title">史跡解説</h1><p>発掘調査報告書にもとづく最小実装</p></header>
+<nav>
+<button class="navbtn" data-view="home">概要</button>
+<button class="navbtn" data-view="map">地点</button>
+<button class="navbtn" data-view="dialogue">質問する</button>
+<button class="navbtn" data-view="quiz">クイズ</button>
+</nav><main><div id="error"></div>
+<section id="home" class="view active"><h2>史跡概要</h2><div class="card warn">この試作では、報告書の「確認」「推定」「可能性」「未検出」などの確実性を区別して表示します。</div><div id="overviewFacts"></div></section>
+<section id="map" class="view"><h2>現地の地点</h2><p class="small">GPS座標は報告書から確定できないため、この最小版では地図ピンを推測配置していません。</p><div id="spots"></div><div id="spotDetail"></div></section>
+<section id="dialogue" class="view"><h2>対話型解説</h2><div id="chatlog"></div><input id="question" placeholder="例：いつ造られた？ 金堂について教えて"><div class="row"><button id="ask">質問</button></div><div id="suggestions" class="row"></div></section>
+<section id="quiz" class="view"><h2>クイズ</h2><div id="quizbox"></div></section>
+</main><script src="js/app.js"></script></body></html>
