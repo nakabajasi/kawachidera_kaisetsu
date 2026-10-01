@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "entities": [
+    {
+      "id": "site_kawachidera_haiji",
+      "entity_type": "site",
+      "name": "河内寺廃寺跡",
+      "aliases": [
+        "国指定史跡河内寺廃寺跡"
+      ]
+    },
+    {
+      "id": "structure_kondo",
+      "entity_type": "structure",
+      "name": "金堂",
+      "aliases": [
+        "金堂跡"
+      ]
+    },
+    {
+      "id": "structure_kodo",
+      "entity_type": "structure",
+      "name": "講堂",
+      "aliases": [
+        "講堂跡"
+      ]
+    },
+    {
+      "id": "structure_tower_estimated",
+      "entity_type": "structure",
+      "name": "塔",
+      "aliases": [
+        "塔跡"
+      ]
+    },
+    {
+      "id": "area_north_precinct",
+      "entity_type": "feature",
+      "name": "寺域北方",
+      "aliases": []
+    },
+    {
+      "id": "artifact_kwm2",
+      "entity_type": "artifact",
+      "name": "KWM2",
+      "aliases": [
+        "細弁十三葉蓮華文軒丸瓦"
+      ]
+    },
+    {
+      "id": "artifact_kwh2",
+      "entity_type": "artifact",
+      "name": "KWH2",
+      "aliases": [
+        "波状重弧文軒平瓦"
+      ]
+    },
+    {
+      "id": "group_kawachinoatai",
+      "entity_type": "group",
+      "name": "河内直（連）",
+      "aliases": [
+        "河内氏"
+      ]
+    },
+    {
+      "id": "group_nakatomi",
+      "entity_type": "group",
+      "name": "中臣氏",
+      "aliases": [
+        "平岡連"
+      ]
+    }
+  ]
+}

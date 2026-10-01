@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "dialogues": [
+    {
+      "id": "dialogue_foundation",
+      "topic": "創建年代",
+      "trigger": {
+        "keywords": [
+          "いつ",
+          "創建",
+          "年代",
+          "造られ",
+          "築かれ"
+        ],
+        "entity_ids": [
+          "site_kawachidera_haiji"
+        ]
+      },
+      "fact_ids": [
+        "fact_foundation_start",
+        "fact_complex_completion"
+      ],
+      "relation_ids": [],
+      "response_type": "period",
+      "suggestions": [
+        {
+          "label": "誰が造営したの？",
+          "dialogue_id": "dialogue_founders"
+        },
+        {
+          "label": "金堂について",
+          "dialogue_id": "dialogue_kondo"
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "dialogue_kondo",
+      "topic": "金堂",
+      "trigger": {
+        "keywords": [
+          "金堂",
+          "塔跡",
+          "基壇"
+        ],
+        "entity_ids": [
+          "structure_kondo"
+        ]
+      },
+      "fact_ids": [
+        "fact_kondo_reidentified",
+        "fact_kondo_size"
+      ],
+      "relation_ids": [],
+      "response_type": "general",
+      "suggestions": [
+        {
+          "label": "創建年代は？",
+          "dialogue_id": "dialogue_foundation"
+        }
+      ],
+      "action_ids": [
+        "action_kondo"
+      ]
+    },
+    {
+      "id": "dialogue_founders",
+      "topic": "造営集団",
+      "trigger": {
+        "keywords": [
+          "誰",
+          "氏族",
+          "造営",
+          "河内氏",
+          "中臣氏"
+        ],
+        "entity_ids": [
+          "group_kawachinoatai",
+          "group_nakatomi"
+        ]
+      },
+      "fact_ids": [],
+      "relation_ids": [
+        "relation_kawachinoatai_construction",
+        "relation_nakatomi_construction"
+      ],
+      "response_type": "multiple_interpretations",
+      "suggestions": [
+        {
+          "label": "創建年代は？",
+          "dialogue_id": "dialogue_foundation"
+        }
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "dialogue_tower",
+      "topic": "塔",
+      "trigger": {
+        "keywords": [
+          "塔",
+          "塔跡"
+        ],
+        "entity_ids": [
+          "structure_tower_estimated"
+        ]
+      },
+      "fact_ids": [
+        "fact_tower_not_detected"
+      ],
+      "relation_ids": [],
+      "response_type": "general",
+      "suggestions": [],
+      "action_ids": []
+    },
+    {
+      "id": "dialogue_end",
+      "topic": "廃絶",
+      "trigger": {
+        "keywords": [
+          "廃絶",
+          "土石流",
+          "なくなった"
+        ],
+        "entity_ids": []
+      },
+      "fact_ids": [
+        "fact_debris_flow"
+      ],
+      "relation_ids": [],
+      "response_type": "general",
+      "suggestions": [],
+      "action_ids": []
+    }
+  ]
+}

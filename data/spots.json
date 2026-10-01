@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "spots": [
+    {
+      "id": "spot_kondo",
+      "name": "金堂跡",
+      "entity_id": "structure_kondo",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "description_fact_ids": [
+        "fact_kondo_reidentified",
+        "fact_kondo_size"
+      ],
+      "media_ids": [],
+      "action_ids": [
+        "action_kondo"
+      ]
+    },
+    {
+      "id": "spot_kodo",
+      "name": "講堂跡",
+      "entity_id": "structure_kodo",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "description_fact_ids": [
+        "fact_kodo_plan"
+      ],
+      "media_ids": [],
+      "action_ids": []
+    },
+    {
+      "id": "spot_north",
+      "name": "寺域北方",
+      "entity_id": "area_north_precinct",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "description_fact_ids": [
+        "fact_north_not_detected",
+        "fact_north_living_possible"
+      ],
+      "media_ids": [],
+      "action_ids": []
+    }
+  ]
+}

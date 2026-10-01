@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "actions": [
+    {
+      "id": "action_kondo",
+      "type": "page",
+      "label": "金堂跡の解説を見る",
+      "target_id": "spot_kondo",
+      "url": null,
+      "related_entity_ids": [
+        "structure_kondo"
+      ],
+      "enabled": true
+    }
+  ]
+}

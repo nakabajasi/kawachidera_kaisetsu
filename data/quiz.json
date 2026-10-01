@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "quizzes": [
+    {
+      "id": "quiz_kondo",
+      "question": "第22次調査で、それまで塔跡と考えられていた建物基壇は何の跡と確認されたでしょう？",
+      "choices": [
+        {
+          "id": "c1",
+          "label": "金堂跡"
+        },
+        {
+          "id": "c2",
+          "label": "講堂跡"
+        },
+        {
+          "id": "c3",
+          "label": "東回廊跡"
+        },
+        {
+          "id": "c4",
+          "label": "寺域北方"
+        }
+      ],
+      "correct_choice_id": "c1",
+      "shuffle": true,
+      "explanation_fact_ids": [
+        "fact_kondo_reidentified"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "11",
+          "pdf_page": 25
+        }
+      ],
+      "human_review_required": true
+    }
+  ]
+}

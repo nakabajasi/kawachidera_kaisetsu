@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0.0",
+  "facts": [
+    {
+      "id": "fact_foundation_start",
+      "subject_id": "site_kawachidera_haiji",
+      "predicate": "construction_start_period",
+      "value": {
+        "type": "string",
+        "value": "7世紀第3四半期頃",
+        "unit": null,
+        "original_text": "7世紀第3四半期頃"
+      },
+      "statement": "出土瓦の研究から、7世紀第3四半期頃から造営が開始したとされる。",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "inferred",
+      "qualifiers": {
+        "method": "出土瓦の研究"
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_complex_completion",
+      "subject_id": "site_kawachidera_haiji",
+      "predicate": "complex_completion_period",
+      "value": {
+        "type": "string",
+        "value": "7世紀第4四半期",
+        "unit": null,
+        "original_text": "7世紀第4四半期"
+      },
+      "statement": "7世紀第4四半期には建物が建てられるなど、伽藍整備が完了したとされる。",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "inferred",
+      "qualifiers": {
+        "method": "出土瓦の研究"
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_layout_shitennoji_style",
+      "subject_id": "site_kawachidera_haiji",
+      "predicate": "complex_layout",
+      "value": {
+        "type": "string",
+        "value": "四天王寺式伽藍配置",
+        "unit": null,
+        "original_text": "四天王寺式伽藍配置"
+      },
+      "statement": "河内寺廃寺の伽藍配置は四天王寺式伽藍配置とされる。",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "inferred",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_kondo_reidentified",
+      "subject_id": "structure_kondo",
+      "predicate": "identification",
+      "value": {
+        "type": "string",
+        "value": "金堂跡",
+        "unit": null,
+        "original_text": "金堂跡"
+      },
+      "statement": "第22次調査で、従来塔跡と考えられていた建物基壇は金堂跡であることが確認された。",
+      "status": "fact",
+      "certainty": "confirmed",
+      "assertion_type": "confirmed",
+      "qualifiers": {
+        "method": "礎石配置"
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "11",
+          "pdf_page": 25
+        }
+      ]
+    },
+    {
+      "id": "fact_kondo_size",
+      "subject_id": "structure_kondo",
+      "predicate": "base_size",
+      "value": {
+        "type": "string",
+        "value": "東西13.9m（46.5尺）、南北12.3m（41尺）、高さ約1.5m（5尺）",
+        "unit": null,
+        "original_text": "東西13.9m（46.5尺）、南北12.3m（41尺）、高さ約1.5m（5尺）"
+      },
+      "statement": "金堂基壇は東西13.9m（46.5尺）、南北12.3m（41尺）で、高さは約1.5m（5尺）とされる。",
+      "status": "fact",
+      "certainty": "confirmed",
+      "assertion_type": "confirmed",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "11",
+          "pdf_page": 25
+        }
+      ]
+    },
+    {
+      "id": "fact_kodo_plan",
+      "subject_id": "structure_kodo",
+      "predicate": "building_plan",
+      "value": {
+        "type": "string",
+        "value": "7間4間",
+        "unit": null,
+        "original_text": "7間4間"
+      },
+      "statement": "講堂は7間4間の建物が建立されたと推定される。",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "inferred",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_north_not_detected",
+      "subject_id": "area_north_precinct",
+      "predicate": "monastic_buildings_detection",
+      "value": {
+        "type": "string",
+        "value": "僧房や食堂など",
+        "unit": null,
+        "original_text": "僧房や食堂など"
+      },
+      "statement": "寺域北方では僧房や食堂などの遺構は未検出である。",
+      "status": "fact",
+      "certainty": "confirmed",
+      "assertion_type": "not_detected",
+      "qualifiers": {
+        "method": "発掘調査"
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_north_living_possible",
+      "subject_id": "area_north_precinct",
+      "predicate": "possible_function",
+      "value": {
+        "type": "string",
+        "value": "僧侶の生活空間",
+        "unit": null,
+        "original_text": "僧侶の生活空間"
+      },
+      "statement": "東西流路北側の整地区画には僧侶の生活空間が存在した可能性がある。",
+      "status": "hypothesis",
+      "certainty": "possible",
+      "assertion_type": "possible",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "113",
+          "pdf_page": 127
+        }
+      ]
+    },
+    {
+      "id": "fact_tower_not_detected",
+      "subject_id": "structure_tower_estimated",
+      "predicate": "archaeological_detection",
+      "value": {
+        "type": "string",
+        "value": "塔跡",
+        "unit": null,
+        "original_text": "塔跡"
+      },
+      "statement": "復元伽藍に塔が想定されているが、塔跡は未検出である。",
+      "status": "fact",
+      "certainty": "confirmed",
+      "assertion_type": "not_detected",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "117",
+          "pdf_page": 131
+        }
+      ]
+    },
+    {
+      "id": "fact_debris_flow",
+      "subject_id": "site_kawachidera_haiji",
+      "predicate": "abandonment_cause",
+      "value": {
+        "type": "string",
+        "value": "土石流",
+        "unit": null,
+        "original_text": "土石流"
+      },
+      "statement": "土石流は寺院の維持管理に大きな影響を与えたが、廃絶原因とまでは断定できない。",
+      "status": "interpretation",
+      "certainty": "uncertain",
+      "assertion_type": "not_confirmed",
+      "qualifiers": {
+        "method": null
+      },
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "115",
+          "pdf_page": 129
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "connectors": {
+    "addition": [
+      "また、",
+      "さらに、"
+    ],
+    "contrast": [
+      "一方で、",
+      "ただし、"
+    ]
+  },
+  "generation_rules": {
+    "preserve_status": true,
+    "preserve_certainty": true,
+    "preserve_assertion_type": true,
+    "on_no_safe_template": "use_statement"
+  }
+}

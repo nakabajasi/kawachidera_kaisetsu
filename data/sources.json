@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "source_kawachidera_2022",
+      "type": "excavation_report",
+      "title": "第1期史跡整備事業に伴う国指定史跡河内寺廃寺跡発掘調査報告書",
+      "organization": "東大阪市",
+      "year": 2022,
+      "publication_date": "2022-03",
+      "url": null
+    }
+  ]
+}

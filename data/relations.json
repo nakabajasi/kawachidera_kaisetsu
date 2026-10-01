@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "relations": [
+    {
+      "id": "relation_kwm2_kwh2",
+      "subject_id": "artifact_kwm2",
+      "relation": "paired_with",
+      "object_id": "artifact_kwh2",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "inferred",
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "93",
+          "pdf_page": 107
+        }
+      ]
+    },
+    {
+      "id": "relation_kawachinoatai_construction",
+      "subject_id": "group_kawachinoatai",
+      "relation": "involved_in_construction",
+      "object_id": "site_kawachidera_haiji",
+      "status": "interpretation",
+      "certainty": "probable",
+      "assertion_type": "considered",
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "91",
+          "pdf_page": 105
+        }
+      ]
+    },
+    {
+      "id": "relation_nakatomi_construction",
+      "subject_id": "group_nakatomi",
+      "relation": "involved_in_construction",
+      "object_id": "site_kawachidera_haiji",
+      "status": "hypothesis",
+      "certainty": "probable",
+      "assertion_type": "considered",
+      "source_refs": [
+        {
+          "source_id": "source_kawachidera_2022",
+          "page_label": "91",
+          "pdf_page": 105
+        }
+      ]
+    }
+  ]
+}

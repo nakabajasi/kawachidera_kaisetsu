@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": "site_kawachidera_haiji",
+  "name": "国指定史跡河内寺廃寺跡",
+  "short_name": "河内寺廃寺跡",
+  "category": "古代寺院跡",
+  "summary_fact_ids": [
+    "fact_foundation_start",
+    "fact_complex_completion",
+    "fact_layout_shitennoji_style"
+  ],
+  "features": {
+    "map": {
+      "enabled": true
+    },
+    "dialogue": {
+      "enabled": true
+    },
+    "ar": {
+      "enabled": false
+    },
+    "camera": {
+      "enabled": false
+    },
+    "viewer3d": {
+      "enabled": false
+    },
+    "quiz": {
+      "enabled": true
+    }
+  },
+  "default_language": "ja",
+  "default_style": "normal",
+  "source_ids": [
+    "source_kawachidera_2022"
+  ]
+}
