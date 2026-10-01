@@ -1,1 +1,0 @@
-# kawachidera_kaisetsu
